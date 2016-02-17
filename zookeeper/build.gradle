@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories{
+    mavenCentral()
+}
+
+dependencies {
+    compile 'junit:junit:4.11'
+    compile 'org.apache.zookeeper:zookeeper:3.4.7'
+}
